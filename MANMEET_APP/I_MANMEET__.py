@@ -439,7 +439,7 @@ def show_home():
             .container {
                 position: relative;
                 max-width: 100%;
-                margin: auto;
+                margin-top: 27px;
                 text-align: center;
             }
             .header {
