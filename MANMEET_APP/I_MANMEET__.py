@@ -6,7 +6,7 @@ import time
 # Set the page configuration with a custom theme
 st.set_page_config(
     page_title="MANMEET APP",
-    page_icon="C:\MY_PYTHON\MY_CODES\PYTHON\I_MANMEET__\IMG\letter-m.png",
+    page_icon="IMG/letter-m.png",
     layout="centered",  # You can change layout to wide if needed
     initial_sidebar_state="expanded",  # Sidebar can be either "expanded" or "collapsed"
 )
