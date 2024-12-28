@@ -3,6 +3,23 @@ from streamlit_option_menu import option_menu
 import streamlit as st
 import time
 
+# Set the page configuration with a custom theme
+st.set_page_config(
+    page_title="MANMEET APP",
+    page_icon="C:\MY_PYTHON\MY_CODES\PYTHON\I_MANMEET__\IMG\letter-m.png",
+    layout="centered",  # You can change layout to wide if needed
+    initial_sidebar_state="expanded",  # Sidebar can be either "expanded" or "collapsed"
+)
+
+# Customize your app using the lemon theme colors (for elements like buttons and text)
+st.markdown("""
+    <style>
+        .css-1d391kg { background-color: #FFF8DC !important; }  /* Background */
+        .css-1d391kg .css-16hu5mu { color: #000000 !important; } /* Text color */
+        .css-1ck2b8r { background-color: #FFF700 !important; }  /* Primary color */
+        .css-1v3fvcr { background-color: #F0E68C !important; }  /* Secondary background */
+    </style>
+""", unsafe_allow_html=True)
 
 
 
