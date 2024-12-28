@@ -1,0 +1,5 @@
+[theme]
+primaryColor = "#FFF700"  # Lemon yellow color
+backgroundColor = "#FFF8DC"  # Light lemony background
+secondaryBackgroundColor = "#F0E68C"  # Slightly darker yellow for sidebars
+textColor = "#000000"  # Black text for contrast
