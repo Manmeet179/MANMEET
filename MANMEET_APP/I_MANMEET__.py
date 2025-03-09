@@ -22,6 +22,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+st.snow()
+st.toast("## ✨ Welcome to Manmeet's Digital Hub! 🚀")
 
 hide_st_style = """
                 <style>
@@ -1158,6 +1160,7 @@ def show_review():
     components.html(review_section_html, height=1000, scrolling=True)
 
     st.markdown("---")
+    st.success("🌟 Grateful to have you here! See you again soon! 🚀")  
 
     html_code = '''
             <div style="text-align: center; font-size: 14px; color: white;">
