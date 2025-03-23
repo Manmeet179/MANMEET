@@ -602,27 +602,27 @@ def show_photography():
     st.markdown("---")
 
     # Display images
-    st.image('IMG/1665243379503436-0.jpg',
+   /* # st.image('IMG/1665243379503436-0.jpg',
              caption='🌅 An exquisite sunset painting the horizon with hues of gold and crimson.', use_column_width=True)
-    st.image('IMG/IMG_20240127_213850.jpg',
+   # st.image('IMG/IMG_20240127_213850.jpg',
              caption='📸 A fleeting moment forever captured in time’s embrace.', use_column_width=True)
-    st.image('IMG/1665242525781967-1.jpg',
+   # st.image('IMG/1665242525781967-1.jpg',
              caption='🏞️ A serene landscape inviting tranquility into the soul.', use_column_width=True)
-    st.image('IMG/1665243353982227-3.jpg',
+   # st.image('IMG/1665243353982227-3.jpg',
              caption='🌄 Majestic mountains standing sentinel over the earth’s splendor.', use_column_width=True)
-    st.image('IMG/1665243369272857-1.jpg',
+   # st.image('IMG/1665243369272857-1.jpg',
              caption='🌿 A mesmerizing close-up revealing nature’s intricate artistry.', use_column_width=True)
-    st.image('IMG/1665242485508776-5.jpg',
+   # st.image('IMG/1665242485508776-5.jpg',
              caption='🌸 A delicate bloom whispering tales of beauty and grace.', use_column_width=True)
-    st.image('IMG/1665243343667298-4.jpg',
+   # st.image('IMG/1665243343667298-4.jpg',
              caption='🌌 A cosmic tapestry unfolds, enchanting the night with its wonders.', use_column_width=True)
-    st.image('IMG/1665243271515329-12.jpg',
+   # st.image('IMG/1665243271515329-12.jpg',
              caption='🐾 An intimate wildlife encounter, bridging the gap between species.', use_column_width=True)
-    st.image('IMG/1665242495010057-4.jpg',
+   # st.image('IMG/1665242495010057-4.jpg',
              caption='🌊 Waves crashing in a rhythmic symphony of nature’s power.', use_column_width=True)
-    st.image('IMG/1665244776167878-5.jpg',
+   # st.image('IMG/1665244776167878-5.jpg',
              caption='🌇 A city skyline illuminated, narrating tales of urban dreams.', use_column_width=True)
-    st.image('IMG/1665242516063577-2.jpg',
+    # st.image('IMG/1665242516063577-2.jpg',
              caption='🎨 A canvas of artistic expression, vibrant and alive with emotion.', use_column_width=True)
     st.image('IMG/1665242504531556-3.jpg',
              caption='🛶 Embarking on an adventure, where every paddle stroke tells a story.', use_column_width=True)
@@ -662,7 +662,7 @@ def show_photography():
     # st.image('IMG/1665243336409640-5.jpg',
     #          caption='🌞 A bright day beckons, filled with endless possibilities.', use_column_width=True)
     # st.image('IMG/1665242436382333-6.jpg',
-    #          caption='🌈 A colorful splash of joy, celebrating the vibrancy of life.', use_column_width=True)
+    #          caption='🌈 A colorful splash of joy, celebrating the vibrancy of life.', use_column_width=True) */
 
     st.markdown("---")
 
