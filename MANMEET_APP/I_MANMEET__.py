@@ -602,67 +602,7 @@ def show_photography():
     st.markdown("---")
 
     # Display images
-   /* # st.image('IMG/1665243379503436-0.jpg',
-             caption='🌅 An exquisite sunset painting the horizon with hues of gold and crimson.', use_column_width=True)
-   # st.image('IMG/IMG_20240127_213850.jpg',
-             caption='📸 A fleeting moment forever captured in time’s embrace.', use_column_width=True)
-   # st.image('IMG/1665242525781967-1.jpg',
-             caption='🏞️ A serene landscape inviting tranquility into the soul.', use_column_width=True)
-   # st.image('IMG/1665243353982227-3.jpg',
-             caption='🌄 Majestic mountains standing sentinel over the earth’s splendor.', use_column_width=True)
-   # st.image('IMG/1665243369272857-1.jpg',
-             caption='🌿 A mesmerizing close-up revealing nature’s intricate artistry.', use_column_width=True)
-   # st.image('IMG/1665242485508776-5.jpg',
-             caption='🌸 A delicate bloom whispering tales of beauty and grace.', use_column_width=True)
-   # st.image('IMG/1665243343667298-4.jpg',
-             caption='🌌 A cosmic tapestry unfolds, enchanting the night with its wonders.', use_column_width=True)
-   # st.image('IMG/1665243271515329-12.jpg',
-             caption='🐾 An intimate wildlife encounter, bridging the gap between species.', use_column_width=True)
-   # st.image('IMG/1665242495010057-4.jpg',
-             caption='🌊 Waves crashing in a rhythmic symphony of nature’s power.', use_column_width=True)
-   # st.image('IMG/1665244776167878-5.jpg',
-             caption='🌇 A city skyline illuminated, narrating tales of urban dreams.', use_column_width=True)
-    # st.image('IMG/1665242516063577-2.jpg',
-             caption='🎨 A canvas of artistic expression, vibrant and alive with emotion.', use_column_width=True)
-    st.image('IMG/1665242504531556-3.jpg',
-             caption='🛶 Embarking on an adventure, where every paddle stroke tells a story.', use_column_width=True)
-    st.image('IMG/1665243326888367-6.jpg',
-             caption='🎉 A moment of jubilation, where laughter echoes in the air.', use_column_width=True)
-    st.image('IMG/1665244199229803-1.jpg',
-             caption='🚶‍♂️ A journey through nature, where each step unveils new wonders.', use_column_width=True)
-
-    st.image('IMG/1674014885546496-1.jpg',
-             caption='🚴‍♀️ The thrill of cycling through scenic routes, embracing freedom.', use_column_width=True)
-    st.image('IMG/1674014891015005-0.jpg',
-             caption='🎣 A day of fishing, where patience meets the thrill of the catch.', use_column_width=True)
-    st.image('IMG/1674014880941829-2.jpg',
-             caption='🎇 A night illuminated with sparks of joy and celebration.', use_column_width=True)
-    st.image('IMG/1674014876448507-3.jpg',
-             caption='🌻 Sunshine spills over the horizon, inviting warmth and cheer.', use_column_width=True)
-    st.image('IMG/1674014863014743-6.jpg',
-             caption='🏖️ Blissful moments by the beach, where time stands still.', use_column_width=True)
-    st.image('IMG/1673956892717349-2.jpg',
-             caption='🐶 A cute companion, embodying the essence of unconditional love.', use_column_width=True)
-    st.image('IMG/1673956884456084-4.jpg',
-             caption='🗺️ Travel memories etched in time, a tapestry of adventures.', use_column_width=True)
-    st.image('IMG/1701065078712778-7.jpg',
-             caption='🧗‍♀️ The call of adventure beckons, urging one to explore beyond.', use_column_width=True)
-    # st.image('IMG/1665244761577840-7.jpg',
-    #          caption='🍃 Nature’s refreshing embrace, revitalizing the spirit.', use_column_width=True)
-    # st.image('IMG/1665244175843069-5.jpg',
-    #          caption='🏙️ Urban exploration reveals the intricacies of city life.', use_column_width=True)
-    # st.image('IMG/1701065083047910-6.jpg',
-    #          caption='⛺ Nights under the stars, where stories unfold around the campfire.', use_column_width=True)
-    # st.image('IMG/1665244157959326-7.jpg',
-    #          caption='🌌 Gazing into the galaxy, contemplating the universe’s mysteries.', use_column_width=True)
-    # st.image('IMG/1665243305672414-8.jpg',
-    #          caption='🌳 A forest adventure, a sanctuary for the weary soul.', use_column_width=True)
-    # st.image('IMG/1665243297809878-9.jpg',
-    #          caption='🐾 The warmth of pet love, a bond that transcends words.', use_column_width=True)
-    # st.image('IMG/1665243336409640-5.jpg',
-    #          caption='🌞 A bright day beckons, filled with endless possibilities.', use_column_width=True)
-    # st.image('IMG/1665242436382333-6.jpg',
-    #          caption='🌈 A colorful splash of joy, celebrating the vibrancy of life.', use_column_width=True) */
+ 
 
     st.markdown("---")
 
