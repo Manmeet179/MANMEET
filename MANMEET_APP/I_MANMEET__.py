@@ -22,7 +22,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.snow()
+
 hide_st_style = """
                 <style>
                 #MainMenu {visibility: hidden;}
