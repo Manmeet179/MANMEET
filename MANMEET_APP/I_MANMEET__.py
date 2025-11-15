@@ -503,11 +503,11 @@ def show_home():
     # Display the HTML with styling
     st.markdown(html_code, unsafe_allow_html=True)
 
-     st.markdown("---")
+    st.markdown("---")
 
-     st.subheader('I AM A DATA SCIENTIST 💻 & DATA ANALYST 📊🔍')
+    st.subheader('I AM A DATA SCIENTIST 💻 & DATA ANALYST 📊🔍')
 
-     st.markdown("---")
+    st.markdown("---")
       # Blog link with bold text, emojis, and orange color
     blog_link = '''
     <p style="color:orange; font-weight:bold; font-size:20px;">
@@ -1159,6 +1159,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
