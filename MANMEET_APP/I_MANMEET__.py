@@ -506,6 +506,26 @@ def show_home():
     # st.markdown("---")
 
     # st.subheader('I AM A DATA SCIENTIST 💻 & DATA ANALYST 📊🔍')
+    import streamlit as st
+
+    # Set background color for demonstration
+    bg_color = "white"  # Change to "black" or any color
+    
+    # Determine text color based on background
+    text_color = "black" if bg_color.lower() == "white" else "white"
+    
+    # Blog link with styling, bold, and emojis
+    blog_link = f'''
+    <p style="color:{text_color}; font-weight:bold; font-size:20px;">
+    🚀✨ <a href="https://manmeet179.blogspot.com/" target="_blank" style="color:{text_color}; text-decoration:none;">
+    Click to open my blog
+    </a> ✨🚀
+    </p>
+    '''
+    
+    # Display with Streamlit
+    st.markdown(blog_link, unsafe_allow_html=True)
+
 
     st.markdown("---")
 
@@ -1147,6 +1167,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
