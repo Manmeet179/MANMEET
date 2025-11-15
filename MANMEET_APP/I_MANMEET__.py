@@ -509,19 +509,10 @@ def show_home():
 
 
 
-    # Default background color (you can customize)
-    bg_color = "white"  # or "black"
-    
-    # Safely set text color based on background
-    if bg_color.lower() == "white":
-        text_color = "black"
-    else:
-        text_color = "white"
-    
-    # Blog link with bold, emojis, and clickable
-    blog_link = f'''
-    <p style="color:{text_color}; font-weight:bold; font-size:20px;">
-    🚀✨ <a href="https://manmeet179.blogspot.com/" target="_blank" style="color:{text_color}; text-decoration:none;">
+      # Blog link with bold text, emojis, and orange color
+    blog_link = '''
+    <p style="color:orange; font-weight:bold; font-size:20px;">
+    🚀✨ <a href="https://manmeet179.blogspot.com/" target="_blank" style="color:orange; text-decoration:none;">
     Click to open my blog
     </a> ✨🚀
     </p>
@@ -1172,6 +1163,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
