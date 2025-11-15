@@ -460,7 +460,7 @@ def show_home():
                 text-align: center;
             }
             .header {
-                font-size: 3rem;
+                font-size: 2rem;
                 text-align: left;
                 padding: 0px;
                 margin: 0;
@@ -1159,6 +1159,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
