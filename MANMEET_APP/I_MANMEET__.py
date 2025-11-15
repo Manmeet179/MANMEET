@@ -619,7 +619,7 @@ def show_photography():
     st.image('IMG/1665243379503436-0.jpg', caption='💫 Simplicity at its finest 💫', use_column_width=True)
 
     st.image('IMG/1665244157959326-7.jpg', caption='✨ Magic in the moment ✨', use_column_width=True)
-    st.image('IMG/1666244175843069-5.jpg', caption='🌙 Calm and beautiful 🌙', use_column_width=True)
+    st.image('IMG/1665244175843069-5.jpg', caption='🌙 Calm and beautiful 🌙', use_column_width=True)
     st.image('IMG/1665244199229803-1.jpg', caption='🌊 Flow like the waves 🌊', use_column_width=True)
 
     st.image('IMG/1665244776167878-5.jpg', caption='🍁 A moment to cherish 🍁', use_column_width=True)
@@ -1152,6 +1152,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
