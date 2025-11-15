@@ -602,6 +602,7 @@ def show_photography():
     st.markdown("---")
 
     # Display images
+    st.image('IMG/1665242495010057-4.jpg', caption='', use_column_width=True)
  
 
     st.markdown("---")
@@ -1114,3 +1115,4 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
