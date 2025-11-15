@@ -609,7 +609,6 @@ st.image('IMG/1665242495010057-4.jpg', caption='💫 Life is full of little joys
 st.image('IMG/1665242504531556-3.jpg', caption='🌈 Some moments stay forever 🌈', use_column_width=True)
 st.image('IMG/1665242516063577-2.jpg', caption='💖 Smiles that touch the heart 💖', use_column_width=True)
 st.image('IMG/1665242525781967-1.jpg', caption='🌿 Peaceful and pure 🌿', use_column_width=True)
-
 st.image('IMG/1665243271515329-12.jpg', caption='📷 A frame worth keeping 📷', use_column_width=True)
 st.image('IMG/1665243297809878-9.jpg', caption='🌞 Happiness in every pixel 🌞', use_column_width=True)
 st.image('IMG/1665243305672414-8.jpg', caption='💛 Warm and wonderful 💛', use_column_width=True)
@@ -619,32 +618,25 @@ st.image('IMG/1665243343667298-4.jpg', caption='💎 Precious and timeless 💎'
 st.image('IMG/1665243353982227-3.jpg', caption='😊 A smile worth remembering 😊', use_column_width=True)
 st.image('IMG/1665243369272857-1.jpg', caption='🌻 Bright days, brighter hearts 🌻', use_column_width=True)
 st.image('IMG/1665243379503436-0.jpg', caption='💫 Simplicity at its finest 💫', use_column_width=True)
-
 st.image('IMG/1665244157959326-7.jpg', caption='✨ Magic in the moment ✨', use_column_width=True)
 st.image('IMG/1666244175843069-5.jpg', caption='🌙 Calm and beautiful 🌙', use_column_width=True)
 st.image('IMG/1665244199229803-1.jpg', caption='🌊 Flow like the waves 🌊', use_column_width=True)
-
 st.image('IMG/1665244776167878-5.jpg', caption='🍁 A moment to cherish 🍁', use_column_width=True)
 st.image('IMG/1665244800876533-2.jpg', caption='❤️ Little joys of life ❤️', use_column_width=True)
-
 st.image('IMG/1673956884456084-4.jpg', caption='⭐ A capture full of dreams ⭐', use_column_width=True)
 st.image('IMG/1673956892717349-2.jpg', caption='🌤️ Light and hope 🌤️', use_column_width=True)
-
 st.image('IMG/1674014863014743-6.jpg', caption='💐 Beauty in every detail 💐', use_column_width=True)
 st.image('IMG/1674014876448507-3.jpg', caption='🌟 Shining in your own way 🌟', use_column_width=True)
 st.image('IMG/1674014880941829-2.jpg', caption='📸 Memories frozen in time 📸', use_column_width=True)
 st.image('IMG/1674014885546496-1.jpg', caption='💙 Soft, quiet and peaceful vibes 💙', use_column_width=True)
 st.image('IMG/1674014891015005-0.jpg', caption='🌼 Happiness blooms from within 🌼', use_column_width=True)
-
 st.image('IMG/1701065078712778-7.jpg', caption='💖 A beautiful memory to keep 💖', use_column_width=True)
 st.image('IMG/1701065083047910-6.jpg', caption='✨ Simple but unforgettable ✨', use_column_width=True)
-
 st.image('IMG/IMG_20240127_213850.jpg', caption='🌟 A moment full of charm 🌟', use_column_width=True)
 st.image('IMG/WhatsApp Image 2024-12-27 at 17.11.54_75db6aad.jpg', caption='💫 A day to remember 💫', use_column_width=True)
 st.image('IMG/WhatsApp Image 2024-12-28 at 13.01.43_f9b4814e.jpg', caption='❤️ Captured with love ❤️', use_column_width=True)
- 
 
-    st.markdown("---")
+st.markdown("---")
 
     html_code = '''
             <div style="text-align: center; font-size: 14px; color: white;">
@@ -1154,5 +1146,6 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
