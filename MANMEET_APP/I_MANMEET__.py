@@ -600,49 +600,44 @@ def show_photography():
     st.markdown(html_code, unsafe_allow_html=True)
 
     st.markdown("---")
-
-    st.image('IMG/1665242436382333-6.jpg', caption='✨ Cherish every moment ✨', use_column_width=True)
-    st.image('IMG/1665242485508776-5.jpg', caption='🌟 A beautiful memory captured 🌟', use_column_width=True)
-    st.image('IMG/1665242495010057-4.jpg', caption='💫 Life is full of little joys 💫', use_column_width=True)
-    st.image('IMG/1665242504531556-3.jpg', caption='❤️ Some moments stay forever ❤️', use_column_width=True)
-    st.image('IMG/1665242516063577-2.jpg', caption='💖 Smiles that touch the heart 💖', use_column_width=True)
-    st.image('IMG/1665242525781967-1.jpg', caption='🌿 Peaceful and pure 🌿', use_column_width=True)
-    
-    st.image('IMG/1665243271515329-12.jpg', caption='📷 A frame worth keeping 📷', use_column_width=True)
-    st.image('IMG/1665243297809878-9.jpg', caption='🌞 Happiness in every pixel 🌞', use_column_width=True)
-    st.image('IMG/1665243305672414-8.jpg', caption='💛 Warm and wonderful 💛', use_column_width=True)
-    st.image('IMG/1665243326888367-6.jpg', caption='⭐ Every picture tells a story ⭐', use_column_width=True)
-    st.image('IMG/1665243336409640-5.jpg', caption='🌸 Bloom with grace 🌸', use_column_width=True)
-    st.image('IMG/1665243343667298-4.jpg', caption='💎 Precious and timeless 💎', use_column_width=True)
-    st.image('IMG/1665243353982227-3.jpg', caption='😊 A smile worth remembering 😊', use_column_width=True)
-    st.image('IMG/1665243369272857-1.jpg', caption='🌻 Bright days, brighter hearts 🌻', use_column_width=True)
-    st.image('IMG/1665243379503436-0.jpg', caption='💫 Simplicity at its finest 💫', use_column_width=True)
-
-    st.image('IMG/1665244157959326-7.jpg', caption='✨ Magic in the moment ✨', use_column_width=True)
-    st.image('IMG/1665244175843069-5.jpg', caption='🌙 Calm and beautiful 🌙', use_column_width=True)
-    st.image('IMG/1665244199229803-1.jpg', caption='🌊 Flow like the waves 🌊', use_column_width=True)
-
-    st.image('IMG/1665244776167878-5.jpg', caption='🍁 A moment to cherish 🍁', use_column_width=True)
-    st.image('IMG/1665244800876533-2.jpg', caption='❤️ Little joys of life ❤️', use_column_width=True)
-
-    st.image('IMG/1673956884456084-4.jpg', caption='⭐ A capture full of dreams ⭐', use_column_width=True)
-    st.image('IMG/1673956892717349-2.jpg', caption='🌤️ Light and hope 🌤️', use_column_width=True)
-
-    st.image('IMG/1674014863014743-6.jpg', caption='💐 Beauty in every detail 💐', use_column_width=True)
-    st.image('IMG/1674014876448507-3.jpg', caption='🌟 Shining in your own way 🌟', use_column_width=True)
-    st.image('IMG/1674014880941829-2.jpg', caption='📸 Memories frozen in time 📸', use_column_width=True)
-    st.image('IMG/1674014885546496-1.jpg', caption='💙 Soft, quiet and peaceful vibes 💙', use_column_width=True)
-    st.image('IMG/1674014891015005-0.jpg', caption='🌼 Happiness blooms from within 🌼', use_column_width=True)
-
-    st.image('IMG/1701065078712778-7.jpg', caption='💖 A beautiful memory to keep 💖', use_column_width=True)
-    st.image('IMG/1701065083047910-6.jpg', caption='✨ Simple but unforgettable ✨', use_column_width=True)
-
-    st.image('IMG/IMG_20240127_213850.jpg', caption='🌟 A moment full of charm 🌟', use_column_width=True)
-
-
-
     # Display images
+    st.image('IMG/1665242436382333-6.jpg', caption='⚡ Sustaining quiet strength in a world obsessed with noise.', use_column_width=True)
+    st.image('IMG/1665242485508776-5.jpg', caption='🔥 Greatness is forged in the unseen chapters of discipline.', use_column_width=True)
+    st.image('IMG/1665242495010057-4.jpg', caption='💪 The mind conquers long before the body follows.', use_column_width=True)
+    st.image('IMG/1665242504531556-3.jpg', caption='🖤 Some memories remain because the soul refuses to forget.', use_column_width=True)
+    st.image('IMG/1665242516063577-2.jpg', caption='⚡ Strength lies not in impulses, but in controlled chaos.', use_column_width=True)
+    st.image('IMG/1665242525781967-1.jpg', caption='🚀 Every step forward begins with a battle within.', use_column_width=True)
+
+    st.image('IMG/1665243271515329-12.jpg', caption='🏆 Consistency is the quiet architect of extraordinary outcomes.', use_column_width=True)
+    st.image('IMG/1665243297809878-9.jpg', caption='🦁 A disciplined mind outperforms raw talent every single time.', use_column_width=True)
+    st.image('IMG/1665243305672414-8.jpg', caption='🔥 Growth is uncomfortable, but stagnation is fatal.', use_column_width=True)
+    st.image('IMG/1665243326888367-6.jpg', caption='💼 Every victory is first negotiated in silence.', use_column_width=True)
+    st.image('IMG/1665243336409640-5.jpg', caption='🛡️ Loyalty remains rare because integrity is expensive.', use_column_width=True)
+    st.image('IMG/1665243343667298-4.jpg', caption='🎯 When the vision is clear, explanations become unnecessary.', use_column_width=True)
+    st.image('IMG/1665243353982227-3.jpg', caption='😎 Calmness is a form of power mastered by few.', use_column_width=True)
+    st.image('IMG/1665243369272857-1.jpg', caption='🔥 Adversity refines a man the same way fire purifies metal.', use_column_width=True)
+    st.image('IMG/1665243379503436-0.jpg', caption='🧠 A sharp mind perceives what the eyes overlook.', use_column_width=True)
     
+    st.image('IMG/1665244157959326-7.jpg', caption='⏳ Progress is slow, but its consequences are monumental.', use_column_width=True)
+    st.image('IMG/1665244175843069-5.jpg', caption='🌙 The night holds the clarity denied by daylight.', use_column_width=True)
+    st.image('IMG/1665244199229803-1.jpg', caption='🌊 True strength flows quietly, never in haste.', use_column_width=True)
+    
+    st.image('IMG/1665244776167878-5.jpg', caption='🧩 Becoming the man I once sought in others.', use_column_width=True)
+    st.image('IMG/1665244800876533-2.jpg', caption='🔥 Proving through action what words could never express.', use_column_width=True)
+    
+    st.image('IMG/1673956884456084-4.jpg', caption='🏹 Ambition guided by clarity becomes unstoppable.', use_column_width=True)
+    st.image('IMG/1673956892717349-2.jpg', caption='🌤️ Healing begins when the mind accepts its own storms.', use_column_width=True)
+    
+    st.image('IMG/1674014863014743-6.jpg', caption='📈 Becoming a more refined version of myself each day.', use_column_width=True)
+    st.image('IMG/1674014876448507-3.jpg', caption='🦅 Solitude sharpens a man’s vision more than any crowd ever will.', use_column_width=True)
+    st.image('IMG/1674014880941829-2.jpg', caption='📸 Captured not in pose, but in purpose.', use_column_width=True)
+    st.image('IMG/1674014885546496-1.jpg', caption='💙 Peace is achieved when the mind no longer negotiates with chaos.', use_column_width=True)
+    st.image('IMG/1674014891015005-0.jpg', caption='⚔️ Pressure reveals character, not weakness.', use_column_width=True)
+    
+    st.image('IMG/1701065078712778-7.jpg', caption='🔥 My silence holds more intention than most conversations.', use_column_width=True)
+    st.image('IMG/1701065083047910-6.jpg', caption='🎯 A simple exterior, a labyrinth of thoughts within.', use_column_width=True)
+    
+    st.image('IMG/IMG_20240127_213850.jpg', caption='💥 Strength wrapped in humility is a rare combination.', use_column_width=True)
 
     html_code = '''
             <div style="text-align: center; font-size: 14px; color: white;">
@@ -1152,6 +1147,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
