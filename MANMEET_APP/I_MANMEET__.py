@@ -604,7 +604,7 @@ def show_photography():
     st.image('IMG/1665242436382333-6.jpg', caption='✨ Cherish every moment ✨', use_column_width=True)
     st.image('IMG/1665242485508776-5.jpg', caption='🌟 A beautiful memory captured 🌟', use_column_width=True)
     st.image('IMG/1665242495010057-4.jpg', caption='💫 Life is full of little joys 💫', use_column_width=True)
-    st.image('IMG/1665242504531556-3.jpg', caption='🌈 Some moments stay forever 🌈', use_column_width=True)
+    st.image('IMG/1665242504531556-3.jpg', caption='❤️ Some moments stay forever ❤️', use_column_width=True)
     st.image('IMG/1665242516063577-2.jpg', caption='💖 Smiles that touch the heart 💖', use_column_width=True)
     st.image('IMG/1665242525781967-1.jpg', caption='🌿 Peaceful and pure 🌿', use_column_width=True)
     
@@ -638,8 +638,7 @@ def show_photography():
     st.image('IMG/1701065083047910-6.jpg', caption='✨ Simple but unforgettable ✨', use_column_width=True)
 
     st.image('IMG/IMG_20240127_213850.jpg', caption='🌟 A moment full of charm 🌟', use_column_width=True)
-    st.image('IMG/WhatsApp Image 2024-12-27 at 17.11.54_75db6aad.jpg', caption='💫 A day to remember 💫', use_column_width=True)
-    st.image('IMG/WhatsApp Image 2024-12-28 at 13.01.43_f9b4814e.jpg', caption='❤️ Captured with love ❤️', use_column_width=True)
+
 
 
     # Display images
@@ -1153,6 +1152,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
