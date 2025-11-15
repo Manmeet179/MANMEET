@@ -511,9 +511,9 @@ def show_home():
       # Blog link with bold text, emojis, and orange color
     blog_link = '''
     <p style="color:orange; font-weight:bold; font-size:20px;">
-    🚀✨ <a href="https://manmeet179.blogspot.com/" target="_blank" style="color:orange; text-decoration:none;">
-    Click to open my blog
-    </a> ✨🚀
+    ✨ <a href="https://manmeet179.blogspot.com/" target="_blank" style="color:orange; text-decoration:none;">
+    CLICK TO OPEN MY BLOG.
+    </a> ✨
     </p>
     '''    
     # Display the link
@@ -1159,6 +1159,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
