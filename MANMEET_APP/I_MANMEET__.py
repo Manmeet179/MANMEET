@@ -529,18 +529,23 @@ def show_home():
     
         background: linear-gradient(
             270deg,
-            red,
-            #ff4d4d,
-            orange,
-            yellow,
-            #adff2f,
-            lime,
-            cyan,
-            deepskyblue,
-            blue,
-            indigo,
-            violet,
-            hotpink
+    #ff0000,#ff1a1a,#ff3333,#ff4d4d,#ff6666,#ff8080,#ff9999,#ffb3b3,
+    #ff6600,#ff751a,#ff8533,#ff944d,#ffa366,#ffb380,#ffc299,#ffd1b3,
+    #ffcc00,#ffd11a,#ffd633,#ffdb4d,#ffe066,#ffe680,#ffeb99,#fff0b3,
+    #ccff00,#d4ff1a,#ddff33,#e6ff4d,#eeff66,#f7ff80,#ffff99,#ffffb3,
+    #66ff00,#75ff1a,#85ff33,#94ff4d,#a3ff66,#b3ff80,#c2ff99,#d1ffb3,
+    #00ff66,#1aff75,#33ff85,#4dff94,#66ffa3,#80ffb3,#99ffc2,#b3ffd1,
+    #00ffcc,#1affd4,#33ffdd,#4dffe6,#66ffee,#80fff7,#99ffff,#b3ffff,
+    #00ccff,#1ad4ff,#33ddff,#4de6ff,#66eeff,#80f7ff,#99ffff,#b3ffff,
+    #0066ff,#1a75ff,#3385ff,#4d94ff,#66a3ff,#80b3ff,#99c2ff,#b3d1ff,
+    #0000ff,#1a1aff,#3333ff,#4d4dff,#6666ff,#8080ff,#9999ff,#b3b3ff,
+    #6600ff,#751aff,#8533ff,#944dff,#a366ff,#b380ff,#c299ff,#d1b3ff,
+    #cc00ff,#d41aff,#dd33ff,#e64dff,#ee66ff,#f780ff,#ff99ff,#ffb3ff,
+    #ff00cc,#ff1ad4,#ff33dd,#ff4de6,#ff66ee,#ff80f7,#ff99ff,#ffb3ff,
+    #ff0066,#ff1a75,#ff3385,#ff4d94,#ff66a3,#ff80b3,#ff99c2,#ffb3d1,
+    #ff1493,#ff2e9f,#ff48ab,#ff62b7,#ff7cc3,#ff96cf,#ffb0db,#ffcbe7,
+    #ff69b4,#ff7fc0,#ff96cc,#ffadd8,#ffc4e4,#ffdbf0,#fff2fc,#ffffff
+
         );
     
         background-size: 4000% 4000%;
@@ -1214,6 +1219,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
