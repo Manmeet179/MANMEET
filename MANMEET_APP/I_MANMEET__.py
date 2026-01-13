@@ -541,17 +541,7 @@ Beyond my professional and academic interests, I cherish engaging in thoughtful 
 Each of these aspects contributes to a well-rounded and fulfilling life, driven by a passion for learning, creativity, and meaningful connections.
     """)
 
-    st.markdown("---")
-
-    html_code = '''
-        <div style="text-align: center; font-size: 14px; color: white;">
-            Powered by~ 
-            <span style="font-weight: bold;">MEET MEWADA</span>
-            <img src="https://img.icons8.com/color/48/verified-badge.png" 
-                 style="vertical-align: middle; margin-left: 0px; width: 14px; height: 14px; margin-top: -2px;"/>
-        </div>
-    '''
-    blog_link = """
+     blog_link = """
     <style>
     .rainbow-text {
         font-size: 22px;
@@ -608,6 +598,17 @@ Each of these aspects contributes to a well-rounded and fulfilling life, driven 
     </p>
     """
     st.markdown("---")
+
+    st.markdown("---")
+
+    html_code = '''
+        <div style="text-align: center; font-size: 14px; color: white;">
+            Powered by~ 
+            <span style="font-weight: bold;">MEET MEWADA</span>
+            <img src="https://img.icons8.com/color/48/verified-badge.png" 
+                 style="vertical-align: middle; margin-left: 0px; width: 14px; height: 14px; margin-top: -2px;"/>
+        </div>
+    '''
 
 
     # Display the HTML with styling
@@ -1218,6 +1219,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
