@@ -522,7 +522,6 @@ def show_home():
     .rainbow-text {
         font-size: 22px;
         font-weight: bold;
-        text-align: center;
     }
     
     .rainbow-text a {
@@ -1218,6 +1217,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
