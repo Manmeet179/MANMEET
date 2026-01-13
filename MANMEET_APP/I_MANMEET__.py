@@ -540,8 +540,10 @@ Beyond my professional and academic interests, I cherish engaging in thoughtful 
 
 Each of these aspects contributes to a well-rounded and fulfilling life, driven by a passion for learning, creativity, and meaningful connections.
     """)
+    
+    st.markdown("---")
 
-     blog_link = """
+    blog_link = """
     <style>
     .rainbow-text {
         font-size: 22px;
@@ -597,8 +599,6 @@ Each of these aspects contributes to a well-rounded and fulfilling life, driven 
     </a> ✨
     </p>
     """
-    st.markdown("---")
-
     st.markdown("---")
 
     html_code = '''
@@ -1219,6 +1219,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
