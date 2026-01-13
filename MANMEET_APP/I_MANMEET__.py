@@ -509,13 +509,72 @@ def show_home():
 
     st.markdown("---")
       # Blog link with bold text, emojis, and orange color
-    blog_link = '''
-    <p style="color:orange; font-weight:bold; font-size:20px;">
-    ✨ <a href="https://manmeet179.blogspot.com/" target="_blank" style="color:orange; text-decoration:none;">
-    CLICK TO OPEN MY BLOG.
+    # blog_link = '''
+    # <p style="color:orange; font-weight:bold; font-size:20px;">
+    # ✨ <a href="https://manmeet179.blogspot.com/" target="_blank" style="color:orange; text-decoration:none;">
+    # CLICK TO OPEN MY BLOG.
+    # </a> ✨
+    # </p>
+    # '''    
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    .rainbow-glow {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .rainbow-glow a {
+        text-decoration: none;
+        background: linear-gradient(
+            270deg,
+            red,
+            orange,
+            yellow,
+            green,
+            cyan,
+            blue,
+            indigo,
+            violet,
+            pink,
+            lime,
+            gold,
+            deepskyblue,
+            magenta
+        );
+        background-size: 1200% 1200%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: rainbow 3s linear infinite;
+        text-shadow:
+            0 0 5px rgba(255,255,255,0.8),
+            0 0 10px rgba(255,255,255,0.6),
+            0 0 20px rgba(255,255,255,0.5),
+            0 0 40px rgba(255,255,255,0.4);
+    }
+    
+    @keyframes rainbow {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    </style>
+    </head>
+    
+    <body>
+    
+    <p class="rainbow-glow">
+    ✨ <a href="https://manmeet179.blogspot.com/" target="_blank">
+    CLICK TO OPEN MY BLOG
     </a> ✨
     </p>
-    '''    
+    
+    </body>
+    </html>
+
+    
     # Display the link
     st.markdown(blog_link, unsafe_allow_html=True)
 
@@ -1159,6 +1218,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
