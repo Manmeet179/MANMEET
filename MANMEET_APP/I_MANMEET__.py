@@ -516,7 +516,7 @@ def show_home():
     # </a> ✨
     # </p>
     # '''   
-  blog_link = """
+    blog_link = """
     <!DOCTYPE html>
     <html>
     <head>
@@ -1219,6 +1219,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
