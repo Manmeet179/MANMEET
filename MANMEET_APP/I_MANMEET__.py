@@ -516,34 +516,8 @@ def show_home():
     # </a> ✨
     # </p>
     # '''   
-    
-    # Display the link
-    st.markdown(blog_link, unsafe_allow_html=True)
 
-    st.markdown("---")
-
-    st.markdown("""
-    **This blog serves as a showcase of my photography 📸 and offers a glimpse into who I am 🌟..**
-    """)
-    st.markdown("""
-    Hi 👋🏻
-
-I am Meet Mewada, though many prefer to call me Manmeet. I hail from the picturesque town of Vadgam, where I take immense pride in my heritage, particularly in my father’s exceptional craftsmanship as a highly skilled carpenter 🛠️. His unwavering dedication to his work has profoundly shaped my own values, instilling in me a strong sense of purpose and perseverance that guides me through every endeavor.
-
-My academic journey has been marked by a rigorous pursuit of knowledge and excellence. I completed my Bachelor of Computer Applications (BCA) 🎓 at the esteemed Bhanumatiben Kantilal Mehta BCA & PGDCA College in Palanpur. This institution provided me with a robust foundation in computing 💻, where I engaged deeply with various technical disciplines including SOFTWERE DEVELOPMENT, DATA SCIENTIST 💻 & DATA ANALYST 📊🔍, and systems management. My academic focus was driven by an eagerness to master complex computing concepts and apply them in practical, impactful ways.
-
-I laid the groundwork for my intellectual development at Smt. C.G. Mevada Higher Secondary School in Palanpur, also known as Vishwakarma Mevada School 🏫. This distinguished institution played a pivotal role in nurturing my academic curiosity and honing my analytical skills, setting the stage for my future pursuits. My interests are as diverse as they are fulfilling: I am captivated by the meticulous art of coin collecting 🪙, which connects me to a rich tapestry of cultural and historical narratives embedded within each artifact. Photography 📸 is another passion of mine, where I endeavor to capture and immortalize the aesthetic beauty of everyday moments, transforming ordinary scenes into extraordinary visual stories.
-
-In my professional capacity as a Data Scientist and Analyst, I find immense satisfaction in tackling complex data challenges 👨🏻‍💻. My role involves intricate data scraping and web scraping tasks, where I meticulously gather and analyze data from various sources, leveraging my expertise in PostgreSQL and Python 🐍 to manage and interpret large datasets. This position allows me to deploy innovative solutions and insights that drive meaningful progress and enhance decision-making processes.
-
-Beyond my professional and academic interests, I cherish engaging in thoughtful and stimulating conversations with friends 🗣️. These interactions not only foster deep connections but also provide opportunities to exchange ideas and broaden my understanding of diverse perspectives. My boundless curiosity fuels my exploration of the vast expanse of the internet 🌐, where I continuously seek out new knowledge, uncover emerging trends, and deepen my expertise across a myriad of fields.
-
-Each of these aspects contributes to a well-rounded and fulfilling life, driven by a passion for learning, creativity, and meaningful connections.
-    """)
-    
-    st.markdown("---")
-
-    blog_link = """
+     blog_link = """
     <style>
     .rainbow-text {
         font-size: 22px;
@@ -599,6 +573,31 @@ Each of these aspects contributes to a well-rounded and fulfilling life, driven 
     </a> ✨
     </p>
     """
+    # Display the link
+    st.markdown(blog_link, unsafe_allow_html=True)
+
+    st.markdown("---")
+
+    st.markdown("""
+    **This blog serves as a showcase of my photography 📸 and offers a glimpse into who I am 🌟..**
+    """)
+    st.markdown("""
+    Hi 👋🏻
+
+I am Meet Mewada, though many prefer to call me Manmeet. I hail from the picturesque town of Vadgam, where I take immense pride in my heritage, particularly in my father’s exceptional craftsmanship as a highly skilled carpenter 🛠️. His unwavering dedication to his work has profoundly shaped my own values, instilling in me a strong sense of purpose and perseverance that guides me through every endeavor.
+
+My academic journey has been marked by a rigorous pursuit of knowledge and excellence. I completed my Bachelor of Computer Applications (BCA) 🎓 at the esteemed Bhanumatiben Kantilal Mehta BCA & PGDCA College in Palanpur. This institution provided me with a robust foundation in computing 💻, where I engaged deeply with various technical disciplines including SOFTWERE DEVELOPMENT, DATA SCIENTIST 💻 & DATA ANALYST 📊🔍, and systems management. My academic focus was driven by an eagerness to master complex computing concepts and apply them in practical, impactful ways.
+
+I laid the groundwork for my intellectual development at Smt. C.G. Mevada Higher Secondary School in Palanpur, also known as Vishwakarma Mevada School 🏫. This distinguished institution played a pivotal role in nurturing my academic curiosity and honing my analytical skills, setting the stage for my future pursuits. My interests are as diverse as they are fulfilling: I am captivated by the meticulous art of coin collecting 🪙, which connects me to a rich tapestry of cultural and historical narratives embedded within each artifact. Photography 📸 is another passion of mine, where I endeavor to capture and immortalize the aesthetic beauty of everyday moments, transforming ordinary scenes into extraordinary visual stories.
+
+In my professional capacity as a Data Scientist and Analyst, I find immense satisfaction in tackling complex data challenges 👨🏻‍💻. My role involves intricate data scraping and web scraping tasks, where I meticulously gather and analyze data from various sources, leveraging my expertise in PostgreSQL and Python 🐍 to manage and interpret large datasets. This position allows me to deploy innovative solutions and insights that drive meaningful progress and enhance decision-making processes.
+
+Beyond my professional and academic interests, I cherish engaging in thoughtful and stimulating conversations with friends 🗣️. These interactions not only foster deep connections but also provide opportunities to exchange ideas and broaden my understanding of diverse perspectives. My boundless curiosity fuels my exploration of the vast expanse of the internet 🌐, where I continuously seek out new knowledge, uncover emerging trends, and deepen my expertise across a myriad of fields.
+
+Each of these aspects contributes to a well-rounded and fulfilling life, driven by a passion for learning, creativity, and meaningful connections.
+    """)
+    
+   
     st.markdown("---")
 
     html_code = '''
@@ -1219,6 +1218,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
