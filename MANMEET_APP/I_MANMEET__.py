@@ -515,7 +515,8 @@ def show_home():
     # CLICK TO OPEN MY BLOG.
     # </a> ✨
     # </p>
-    # '''    
+    # '''   
+  blog_link = """
     <!DOCTYPE html>
     <html>
     <head>
@@ -564,15 +565,15 @@ def show_home():
     </head>
     
     <body>
-    
     <p class="rainbow-glow">
     ✨ <a href="https://manmeet179.blogspot.com/" target="_blank">
     CLICK TO OPEN MY BLOG
     </a> ✨
     </p>
-    
     </body>
     </html>
+    """
+
 
     
     # Display the link
@@ -1218,6 +1219,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
