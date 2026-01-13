@@ -517,7 +517,7 @@ def show_home():
     # </p>
     # '''   
 
-     blog_link = """
+    blog_link = """
     <style>
     .rainbow-text {
         font-size: 22px;
@@ -1218,6 +1218,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
