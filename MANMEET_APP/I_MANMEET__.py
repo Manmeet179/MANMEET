@@ -598,6 +598,10 @@ Each of these aspects contributes to a well-rounded and fulfilling life, driven 
     
    
     st.markdown("---")
+    
+      # text-align: center;
+    st.markdown("---")
+    
 
     html_code = '''
         <div style="text-align: center; font-size: 14px; color: white;">
@@ -1217,6 +1221,7 @@ def show_review():
 
 if __name__ == "__main__":
     main()
+
 
 
 
